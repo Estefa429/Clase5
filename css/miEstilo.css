@@ -1,0 +1,70 @@
+/*Selector Universal*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*selector de etiqueta*/
+header,footer{
+    background-color: rgb(100, 238, 119);
+}
+
+/*Selectores Descendentes*/
+article p span{
+    font-size: xx-large; /*Tamaño de letra*/
+    color: aqua; /*Color de letra*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Tipo de letra*/
+    font-weight: bold; /*Grueso de la letra*/
+}
+
+/*Selector de Clase */
+.miClase{
+    background-color: rgb(110, 226, 110);
+}
+
+/*Selector tipo ID*/
+#menu{
+    background-color:c;
+    color: antiquewhite;
+
+}
+
+/*Selector adyacente */
+h1+p{
+    text-decoration: underline;
+}
+
+#miP{
+    text-decoration: none;
+}
+
+/*Selector pseudocodigo*/
+
+.miA:hover{
+    background-color: black;
+    color: yellow;
+}
+.miA:visited, .miB:link{
+    background-color: rgb(130, 243, 24);
+    color: white;
+}
+
+img:hover{
+    opacity: 0;;
+}
+
+.miClase::before{
+    background-color:black;
+    color: white;
+    content: url(/img/images.jpg);
+}
+
+.miClase::first-line{
+    font-size: 30px;
+    color: red;
+}
+
+#menu{
+    display: flex;
+}
